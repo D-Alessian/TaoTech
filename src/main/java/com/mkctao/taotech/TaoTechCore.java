@@ -17,9 +17,9 @@ import org.apache.logging.log4j.Logger;
 
 @Mod(modid = TaoTechCore.MODID, version = TaoTechCore.VERSION, name = TaoTechCore.MODNAME, acceptedMinecraftVersions = "[1.12.2]", dependencies = GTInternalTags.DEP_VERSION_STRING +
         "required-after:gcym@[1.2.11,);" +
-        "required-after:appliedenergistics2;"))
+        "required-after:appliedenergistics2;")
 
-public class TaoTech {
+public class TaoTechCore {
 
     public static final Logger LOGGER = LogManager.getLogger(Tags.MODID);
 
