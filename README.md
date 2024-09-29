@@ -4,3 +4,6 @@
 <p align="center">
   An addon mod for <a href="https://github.com/GregTechCEu/GregTech">GregTech CEu</a>
 </p>
+
+# Credits 
+- @Zorbatron Cause I basically only have been copying his code for now.
