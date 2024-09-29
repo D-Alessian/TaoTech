@@ -6,4 +6,4 @@
 </p>
 
 # Credits 
-- @Zorbatron Cause I basically only have been copying his code for now.
+- [Zorbatron](https://github.com/Zorbatron) Cause I basically only have been copying his code for now.
