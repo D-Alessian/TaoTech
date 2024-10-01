@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.mkctao.taotech;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -15,8 +15,17 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = Tags.MODID, version = Tags.VERSION, name = Tags.MODNAME, acceptedMinecraftVersions = "[1.12.2]")
-public class MyMod {
+import gregtech.GTInternalTags;
+import gregtech.api.GTValues;
+import gregtech.api.GregTechAPI;
+import gregtech.common.blocks.BlockMachineCasing;
+import gregtech.common.blocks.MetaBlocks;
+
+@Mod(modid = Tags.MODID, version = Tags.VERSION, name = Tags.MODNAME, acceptedMinecraftVersions = "[1.12.2]", dependencies = GTInternalTags.DEP_VERSION_STRING +
+        "required-after:gcym@[1.2.11,);" +
+        "required-after:appliedenergistics2;")
+
+public class TaoTechCore {
 
     public static final Logger LOGGER = LogManager.getLogger(Tags.MODID);
 

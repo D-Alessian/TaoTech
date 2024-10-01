@@ -1,12 +1,12 @@
 [{
     "modid": "${modid}",
     "name": "${modname}",
-    "description": "An example mod for Minecraft 1.12.2 with Forge",
+    "description": "Bringing huge, powerful and complex multiblocks to GTCEu",
     "version": "${version}",
     "mcversion": "${mcversion}",
-    "logoFile": "",
-    "url": "",
-    "authorList": [],
-    "credits": "",
-    "dependencies": []
+    "logoFile": "/assets/TaoTech/textures/TaoTech_big.png",
+    "url": "https://github.com/D-Alessian/TaoTech",
+    "authorList": ["MkcTao"],
+    "credits": "Zorbatron cause I copied half his code (doing it right now)",
+    "dependencies": ["gregtech", "gcym"]
 }]
